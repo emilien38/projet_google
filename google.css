@@ -8,13 +8,116 @@ h2
 	color: blue;
 	text-align: center;
 }
-table
-{
-	border-collapse: collapse;
-	background-color: yellow;
-	front-family: verdana;
+
+.onglet_img {
+    border-radius: 50%;
 }
-td,th
-{
-	border: 1px solid black;
+
+.google_image {
+    width: 500px;
+	
 }
+.menu_haut_image {
+	width: 50px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.relative { position: relative;}
+
+.absolu {position: absolute;}
+
+.bas {
+	bottom : 0
+}
+
+
+menu_haut {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  width : 99%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  /*padding: 16px;
+  font-size: 16px;*/
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+
+
+
+

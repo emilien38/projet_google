@@ -13,23 +13,44 @@
 <body bgcolor=white>
 	
 	<menu_haut>
-	
-		<div class="dropdown">
-			<button onclick="myFunction()" class="dropbtn"><img class="menu_haut_image" src="carre_google.png"></button>
-			<div id="myDropdown" class="dropdown-content">
-				<a href="#home">Home</a>
-				<a href="#about">About</a>
-				<a href="#contact">Contact</a>
-			</div>
-		</div>
-		<li style="float:right"><img class="menu_haut_image" src="carre_google.png"></li>
+		<li style="float:right"><a href="https://accounts.google.com/"><img class="connexion_image" src="connexion_google.png"></a></li>
+		<li style="float:right"><a href="https://www.google.fr/intl/fr/about/products?tab=wh"><img class="menu_haut_image" src="carre_google.png"></a></li>
 		<li style="float:right"><a href="https://www.google.fr/imghp?hl=fr&tab=wi&authuser=0&ogbl">Images</a></li>
 		<li style="float:right"><a href="https://www.gmail.com">Gmail</a></li>		
 	</menu_haut>
 	
 	<a href="https://www.google.com/search?sxsrf=ALeKk00x8veGTzk_Xy6QAJVINr8PC-mPyw:1585923398938&q=coronavirus+conseils&oi=ddle&ct=153021071&hl=fr&sa=X&ved=0ahUKEwiCw9SGuczoAhUMcBQKHbJjBtwQPQgM"><img class="google_image" src="https://www.google.com/logos/doodles/2020/stay-home-save-lives-6753651837108752-law.gif"></a>
 	
+
+	<FORM method=GET action="http://www.google.fr/search">
+		<TABLE bgcolor="#FFFFFF" width="597">
+			<tr>
+				<td>
+					<div align="center">
+						<INPUT TYPE=text name=q size=31 maxlength=255 value="">
+						<INPUT TYPE=hidden name=hl value=fr>
+						<INPUT type=submit name=btnG VALUE="Recherche Google">
+					</div>
+				</td>
+			</tr>
+		</TABLE>
+	</FORM>
 	
+	
+
+	
+	
+	
+	
+	<form action="https://www.google.com/doodles/">
+         <button type="submit">J'ai de la chance</button>
+    </form>
+	
+	<img class="geste_barriere_image" src="https://www.gstatic.com/images/hpp/dothefive_90x90t.gif">
+
+	<p> <a href="https://www.google.com/url?q=https://www.google.fr/search%3Fq%3Dcoronavirus%2Bconseils%26fbx%3Ddothefive%26hl%3Dfr&source=hpp&id=19016789&ct=3&usg=AFQjCNHheQesZVgg5oX7EaQEr-dw_aeXQg&sa=X&ved=0ahUKEwj1msXx4MzoAhVoDWMBHTmEAAEQ8IcBCA8">5 GESTES "BARRIERE" pour freiner le coronavirus </a></p>
+	
+	<p> Google disponible en : <a href="https://www.google.com/setprefs?sig=0_84E85k6c_IEED4hBJFEzcTL81co%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwj1j_HR5MzoAhULnhQKHaeZDhQQ2ZgBCBE">English</a></p>
 	<ul>
 		<li><a>France</a></li>		
 	</ul>
@@ -47,29 +68,6 @@
 		<li style="float:right"><a href="https://support.google.com/websearch?p=fr_consumer_info&hl=fr&fg=1">Info consommateurs</a></li>
 			
 	</ul>
-	
-	<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-	
 	
 </body>
 
